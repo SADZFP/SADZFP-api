@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SADZFP.Api.props" />
+</Project>

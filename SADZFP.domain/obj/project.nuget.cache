@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pavlfp+MvxAEVtfbmH7CZB2aCOaFqxiO68QA3wa74tiQaBHUGC9W+IYTEUOFPmVT2/vKfCG0+42qExaYpJDSCg==",
+  "dgSpecHash": "rwHL5389MZoEPvz63DBjc6ZOmLjVZecGZTxYyfolGFiVICQU1sl4AlFizUqU/sq/IEAr6vvGGjro8Tcpc54KKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP\\SADZFP.csproj",
+  "projectFilePath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

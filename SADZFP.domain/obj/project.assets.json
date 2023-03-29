@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP\\SADZFP.csproj",
+      "projectUniqueName": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj",
       "projectName": "SADZFP",
-      "projectPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP\\SADZFP.csproj",
+      "projectPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj",
       "packagesPath": "C:\\Users\\domfa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP\\obj\\",
+      "outputPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\domfa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,12 @@
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\bin\Debug\net7.0\SADZFP.deps.json
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\bin\Debug\net7.0\SADZFP.dll
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\bin\Debug\net7.0\SADZFP.pdb
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\obj\Debug\net7.0\SADZFP.csproj.AssemblyReference.cache
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\obj\Debug\net7.0\SADZFP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\obj\Debug\net7.0\SADZFP.AssemblyInfoInputs.cache
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\obj\Debug\net7.0\SADZFP.AssemblyInfo.cs
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\obj\Debug\net7.0\SADZFP.csproj.CoreCompileInputs.cache
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\obj\Debug\net7.0\SADZFP.dll
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\obj\Debug\net7.0\refint\SADZFP.dll
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\obj\Debug\net7.0\SADZFP.pdb
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.domain\obj\Debug\net7.0\ref\SADZFP.dll

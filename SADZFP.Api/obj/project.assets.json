@@ -107,6 +107,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "SADZFP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SADZFP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SADZFP.dll": {}
+        }
       }
     }
   },
@@ -451,11 +461,17 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "SADZFP/1.0.0": {
+      "type": "project",
+      "path": "../SADZFP.domain/SADZFP.csproj",
+      "msbuildProject": "../SADZFP.domain/SADZFP.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.2",
+      "SADZFP >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -483,7 +499,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj": {
+              "projectPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -524,7 +544,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
