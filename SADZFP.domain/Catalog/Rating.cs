@@ -13,11 +13,11 @@ public class Rating
         {
             if(stars < 1 || stars > 5)
             {
-                throw new ArgumentException("Star rating must be an integer of: 1, 2, 3, 4, 5.")
+                throw new ArgumentException("Star rating must be an integer of: 1, 2, 3, 4, 5.");
             }
             if(string.IsNullOrEmpty(userName))
             {
-                throw new ArgumentException("UserName cannot be null.")
+                throw new ArgumentException("UserName cannot be null.");
             }
             this.Stars = stars;
             this.UserName = userName;
