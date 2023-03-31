@@ -9,10 +9,10 @@ namespace SADZFP.Api.Controllers
     {
 
     }
-
-    [HttpGet]
-    public IActionResult GetItems()
-    {
-        return Ok("hello world.");
-    }
 }
+ [HttpGet]
+ public IActionResult GetItems()
+{
+    return Ok("hello world.");
+}
+    
