@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SADZFP.domain.Catalog;
 
-namespace SADZFP.Api.Controllers
+namespace SADZFP.Api.Controller
 {
     [ApiController]
     [Route("[controller]")]
@@ -12,7 +12,7 @@ namespace SADZFP.Api.Controllers
 }  
  public class HTTPGetController : Controller
 {  
-    [HttpGet]
+    [HttpGet("/catalog")]
     public IActionResult GetItems()
     {
         return Ok("hello world.");
