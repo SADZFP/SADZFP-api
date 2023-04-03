@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SADZFP.domain\SADZFP.csproj" />
+    <ProjectReference Include="..\SADZFP.Data\SADZFP.Data.csproj" />
   </ItemGroup>
 
 </Project>

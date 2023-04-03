@@ -117,6 +117,19 @@
         "runtime": {
           "bin/placeholder/SADZFP.dll": {}
         }
+      },
+      "SADZFP.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "SADZFP": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SADZFP.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SADZFP.Data.dll": {}
+        }
       }
     }
   },
@@ -466,12 +479,18 @@
       "type": "project",
       "path": "../SADZFP.domain/SADZFP.csproj",
       "msbuildProject": "../SADZFP.domain/SADZFP.csproj"
+    },
+    "SADZFP.Data/1.0.0": {
+      "type": "project",
+      "path": "../SADZFP.Data/SADZFP.Data.csproj",
+      "msbuildProject": "../SADZFP.Data/SADZFP.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.2",
       "SADZFP >= 1.0.0",
+      "SADZFP.Data >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -500,6 +519,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.Data\\SADZFP.Data.csproj": {
+              "projectPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.Data\\SADZFP.Data.csproj"
+            },
             "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj": {
               "projectPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj"
             }

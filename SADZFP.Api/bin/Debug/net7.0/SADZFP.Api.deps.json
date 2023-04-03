@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.2",
           "SADZFP": "1.0.0",
+          "SADZFP.Data": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -78,6 +79,14 @@
         "runtime": {
           "SADZFP.dll": {}
         }
+      },
+      "SADZFP.Data/1.0.0": {
+        "dependencies": {
+          "SADZFP": "1.0.0"
+        },
+        "runtime": {
+          "SADZFP.Data.dll": {}
+        }
       }
     }
   },
@@ -137,6 +146,11 @@
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
     },
     "SADZFP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SADZFP.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

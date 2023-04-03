@@ -68,3 +68,5 @@ C:\Users\Administrator\Documents\AMIS 4630\Course Project\SADZFP-api\SADZFP.Api\
 C:\Users\Administrator\Documents\AMIS 4630\Course Project\SADZFP-api\SADZFP.Api\obj\Debug\net7.0\SADZFP.Api.pdb
 C:\Users\Administrator\Documents\AMIS 4630\Course Project\SADZFP-api\SADZFP.Api\obj\Debug\net7.0\SADZFP.Api.genruntimeconfig.cache
 C:\Users\Administrator\Documents\AMIS 4630\Course Project\SADZFP-api\SADZFP.Api\obj\Debug\net7.0\ref\SADZFP.Api.dll
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.Api\bin\Debug\net7.0\SADZFP.Data.dll
+C:\Users\domfa\SADZFP-Main\SADZFP-api\SADZFP.Api\bin\Debug\net7.0\SADZFP.Data.pdb
