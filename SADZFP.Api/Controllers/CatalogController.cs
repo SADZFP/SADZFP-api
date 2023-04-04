@@ -29,38 +29,70 @@ namespace SADZFP.Api.Controller
         [HttpGet("{id:int}")]
         public IActionResult GetItem(int id)
         {
-            var Item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m);
-            Item.Id = id;
-
-            return Ok(Item);
+            var item = _db.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            return Ok();
         }
 
-        [HttpPost("/catalog")]
+        [HttpPost]
         public IActionResult Post(Item item)
         {
-            return Created("/catalog/42", item);
+            _db.Items.Add(item);
+            _db.SaveChanges();
+            return Created($"/catalog/{item.Id}", item);
         }
 
         [HttpPost("{id:int}/ratings")]
         public IActionResult PostRating(int id, [FromBody] Rating rating)
         {
-            var Item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m);
-            Item.Id = id;
+            var Item = _db.Items.Find(id);
+            if (Item == null)
+            { 
+                return NotFound()
+            }
+            
             Item.AddRating(rating);
+            _db.SaveChanges();
 
             return Ok(Item);
         }
 
         [HttpPut("{id:int}")]
-        public IActionResult Put(int id, Item item)
-        {
-            return NoContent();
+        public IActionResult PutItem(int id,  [FromBody] Item item)
+        { 
+            if (id != item.Id)
+            {
+                return BadRequest();
+            }
+
+            if (_db.Itmes.Find(id) == null)
+            {
+                return NotFound();
+            }
+
+            _db.Entry(item).State = EntityState.Modified;
+            _db.SaveChanges();
+
+            return NoContent;
+
         }
 
         [HttpDelete("{id:int}")]
-        public IActionResult Delete(int id)
+        public IActionResult DeleteItem(int id)
         {
-            return NoContent();
+            var item = _db.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            _db.Items.Remove(item);
+            _db.SaveChanges();
+
+            return ok();
         }
     }
 }  
