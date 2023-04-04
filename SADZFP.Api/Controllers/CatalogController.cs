@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using SADZFP.domain.Catalog;
+using SADZFP.Data;
 
 namespace SADZFP.Api.Controller
 {
@@ -7,6 +8,13 @@ namespace SADZFP.Api.Controller
     [Route("[controller]")]
     public class CatalogController : ControllerBase
     {
+        private readonly StoreContext _db;
+
+        public CatalogController(StoreContext db)
+        {
+            _db = db;
+        }
+
         [HttpGet("/catalog")]
         public IActionResult GetItems()
         {
@@ -15,7 +23,7 @@ namespace SADZFP.Api.Controller
                 new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m),
                 new Item("Shorts", "Ohio State shorts.", "Nike", 44.99m)
             };
-            return Ok(items);
+            return Ok(_db.Items);
         }
 
         [HttpGet("{id:int}")]
