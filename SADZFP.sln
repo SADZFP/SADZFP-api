@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SADZFP.Api", "SADZFP.Api\SA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SADZFP.Data", "SADZFP.Data\SADZFP.Data.csproj", "{EDDAA8B5-63E7-4A80-8440-497A4B49C99D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing", "testing", "{B0574D00-78B0-4B4E-A3AC-583607E6079F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SADZFP.Domain.Testing", "testing\SADZFP.Domain.Testing\SADZFP.Domain.Testing.csproj", "{A2923911-0C82-42E7-BD86-585804B940DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{EDDAA8B5-63E7-4A80-8440-497A4B49C99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDDAA8B5-63E7-4A80-8440-497A4B49C99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDDAA8B5-63E7-4A80-8440-497A4B49C99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2923911-0C82-42E7-BD86-585804B940DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2923911-0C82-42E7-BD86-585804B940DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2923911-0C82-42E7-BD86-585804B940DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2923911-0C82-42E7-BD86-585804B940DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2923911-0C82-42E7-BD86-585804B940DF} = {B0574D00-78B0-4B4E-A3AC-583607E6079F}
 	EndGlobalSection
 EndGlobal
