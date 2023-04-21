@@ -1,4 +1,4 @@
-using SADZFP.Domain.Catalog;
+using SADZFP.domain.Catalog;
 
 namespace SADZFP.Orders
 {
