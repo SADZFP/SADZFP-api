@@ -19,4 +19,5 @@
   <ItemGroup>
       <ProjectReference Include="..\SADZFP.domain\SADZFP.csproj" />
   </ItemGroup>
+  
 </Project>
