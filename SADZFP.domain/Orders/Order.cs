@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SADZFP.Orders
+namespace SADZFP.domain.Orders
 {
     public class Order
     {

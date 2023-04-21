@@ -1,6 +1,6 @@
 using SADZFP.domain.Catalog;
 
-namespace SADZFP.Orders
+namespace SADZFP.domain.Orders
 {
     public class OrderItem
     {

@@ -51,7 +51,7 @@ namespace SADZFP.Api.Controller
             var Item = _db.Items.Find(id);
             if (Item == null)
             { 
-                return NotFound()
+                return NotFound();
             }
             
             Item.AddRating(rating);
@@ -68,7 +68,7 @@ namespace SADZFP.Api.Controller
                 return BadRequest();
             }
 
-            if (_db.Itmes.Find(id) == null)
+            if (_db.Items.Find(id) == null)
             {
                 return NotFound();
             }
