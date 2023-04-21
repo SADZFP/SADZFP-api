@@ -17,8 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="SADZFP.Domain.Testing.csproj" />
-    <ProjectReference Include="..\SADZFP.domain\SADZFP.csproj" />
+      <ProjectReference Include="..\SADZFP.domain\SADZFP.csproj" />
   </ItemGroup>
-
 </Project>
