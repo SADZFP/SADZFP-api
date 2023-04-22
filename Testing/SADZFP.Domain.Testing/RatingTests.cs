@@ -13,4 +13,11 @@ public class UnitTest1
         Assert.AreEqual("Mike", rating.UserName);
         Assert.AreEqual("Great fit!", rating.Review);
     }
+    
+    [TestMethod]
+    [ExpectedException(typeof(ArgumentException))]
+    public void Cannot_Create_Rating_with_Invalid_Stars()
+    {
+        var rating = new Rating(0, "Mike", "Great fit!");
+    }
 }

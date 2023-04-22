@@ -11381,19 +11381,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\domfa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\AMIS 4630\\Course Project\\SADZFP-api\\SADZFP.Api\\SADZFP.Api.csproj",
+      "projectUniqueName": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.Api\\SADZFP.Api.csproj",
       "projectName": "SADZFP.Api",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\AMIS 4630\\Course Project\\SADZFP-api\\SADZFP.Api\\SADZFP.Api.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\AMIS 4630\\Course Project\\SADZFP-api\\SADZFP.Api\\obj\\",
+      "projectPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.Api\\SADZFP.Api.csproj",
+      "packagesPath": "C:\\Users\\domfa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\domfa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -11405,11 +11405,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Administrator\\Documents\\AMIS 4630\\Course Project\\SADZFP-api\\SADZFP.Data\\SADZFP.Data.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Documents\\AMIS 4630\\Course Project\\SADZFP-api\\SADZFP.Data\\SADZFP.Data.csproj"
+            "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.Data\\SADZFP.Data.csproj": {
+              "projectPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.Data\\SADZFP.Data.csproj"
             },
-            "C:\\Users\\Administrator\\Documents\\AMIS 4630\\Course Project\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Documents\\AMIS 4630\\Course Project\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj"
+            "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj": {
+              "projectPath": "C:\\Users\\domfa\\SADZFP-Main\\SADZFP-api\\SADZFP.domain\\SADZFP.csproj"
             }
           }
         }
@@ -11470,7 +11470,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
