@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using SADZFP.domain.Catalog;
 using SADZFP.Data;
@@ -76,7 +77,7 @@ namespace SADZFP.Api.Controller
             _db.Entry(item).State = EntityState.Modified;
             _db.SaveChanges();
 
-            return NoContent;
+            return NoContent();
 
         }
 
@@ -92,7 +93,7 @@ namespace SADZFP.Api.Controller
             _db.Items.Remove(item);
             _db.SaveChanges();
 
-            return ok();
+            return Ok();
         }
     }
 }  
