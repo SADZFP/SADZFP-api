@@ -4,9 +4,33 @@ using Microsoft.EntityFrameworkCore.Sqlite;
 
 var builder = WebApplication.CreateBuilder(args);
 
+string authority = builder.Configuration["Auth0:Authority"] ??
+    throw new ArgumentNullException("Auth0:Authority");
+
+string audience = builder.Configuration["Auth0:Audience"] ??
+    throw new ArgumentNullException("Auth0:Audience");
+
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticateScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticateScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.Authority = authority;
+    options.Audience = audience;
+});
+
+builder.Services.AddAuthentication(options =>
+    {
+        options.AddPolicy("delete:catalog", policy =>
+        policy.RequireAuthenticatedUser().RequireClaim("scope", "delete:catalog"));
+    });
+
 builder.Services.AddDbContext<StoreContext>(options => options.UseSqlite("Data Source=../Registrar.sqlite", b => b.MigrationsAssembly("SADZFP.Api")));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
@@ -33,7 +57,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.useCors();
+app.UseCors();
+
+app.UseAuthorization();
 
 app.UseAuthorization();
 
